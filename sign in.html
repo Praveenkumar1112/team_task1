@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-image: url(img/bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .form{
+        position: relative;
+        top: 100px;
+        left: 150px;
+        text-align: center;
+        width: 200px;
+        height: 250px;
+        border-radius: 30px;
+        box-shadow: 10px 10px 10px rgb(255, 174, 0), 10px 10px 10px palevioletred;
+
+    }
+    .form h1{
+        font-family:sans-serif;
+        color: rgb(255, 98, 0);
+    }
+    .form input{
+        height: 30px;
+        margin-top: 10px;
+        border-radius: 20px;
+        text-align: center;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        color: orange;
+        font-weight: bolder;
+    }
+    .sign a{
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: cadetblue;
+        padding: 10px 20px;
+        position: relative;
+        top: 30px;
+        font-weight: bolder;
+        border-radius: 20px;
+    }
+    .form .register{
+        position: relative;
+        top: 30px;
+    }
+    .form .login_with{
+        position: relative;
+        top: 30px;
+    }
+    .login_with {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;   
+    }
+    .login_with a{
+        padding: 5px 5px;
+        border-radius: 5px;
+    }
+    .login_with a:hover{
+        color: whitesmoke;
+        background-color: orange;
+    }
+
+</style>
+</head>
+
+<body>
+    <form class="form" action="index.html">
+        <div class="sign">
+            <h1>Moviesdaa...</h1>
+            <input type="text" placeholder="Username"><br>
+            <input type="password" placeholder="Password"><br>
+            <a href="index.html">Sign In</a>
+        </div><br>
+        <a href="register.html" class="register">Create a Account</a><br>
+        <div class="login_with">
+            
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+    </form>
+</body>
+
+</html>
